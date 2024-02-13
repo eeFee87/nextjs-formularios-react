@@ -1,9 +1,13 @@
 .main {
+  font-size: xx-large;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+}
+.main div{
+  padding: 5rem;
 }
 

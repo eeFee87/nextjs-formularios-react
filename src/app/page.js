@@ -1,9 +1,11 @@
 import styles from "./page.module.css";
+import { FormularioControlado } from "../components/FormularioControlado.js";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <p>Hello world</p>
+      <div>Hello world</div>
+      <FormularioControlado/>
     </main>
   );
 }
