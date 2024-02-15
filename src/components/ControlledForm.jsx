@@ -18,17 +18,23 @@ export default function FormControlled() {
   const [formState, setFormState] = useState({ username: '', email: '' });
 
   // Desestructuramos el target del event
+
   // Esta función nos permite hacer el cambio en cualquier input
+
   const handleInputChange = ({ target }) => {
+
     // De target nos interesa dos valores: name (necesario declararlo en los inputs del formulario) y value
+
     const { name, value } = target;
+
     // Agregamos o modificamos la propiedad name con su valor en el formState actual
+    
     setFormState({ ...formState, [name]: value });
   };
 
   return (
     <>
-      <h1>Simple form</h1>
+      <h1>Controlled Form</h1>
       <input
         type="text"
         placeholder="Introduce tu nombre"
