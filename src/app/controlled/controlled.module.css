@@ -1,0 +1,30 @@
+.main {
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 400px;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+.main h3{
+  text-align: center;
+  text-wrap: balance;
+}
+.main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+
+}
+.main input{
+  height: 1.5rem;
+  width: 15rem;
+}
+.main p{
+  text-wrap: pretty;
+}

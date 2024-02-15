@@ -2,12 +2,32 @@
   font-size: xx-large;
   display: flex;
   flex-direction: column;
-  
+  margin: 0 400px;
   align-items: center;
   padding: 2rem;
   min-height: 100vh;
 }
-.main div{
+.main h1{
+  text-align: center;
+  text-wrap: balance;
   padding: 5rem;
+}
+.main div{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+
+.main p{
+  text-wrap: pretty;
+}
+.main form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  font-size: 1.5rem;
 }
 
