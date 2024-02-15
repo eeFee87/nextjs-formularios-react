@@ -8,23 +8,31 @@
   padding: 2rem;
   min-height: 100vh;
 }
-.main h3{
+.main h3 {
   text-align: center;
   text-wrap: balance;
 }
+.main article {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
 .main form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   border: 2px solid black;
   padding: 1rem;
-
 }
-.main input{
+.main input {
+  padding-left: 0.25rem;
   height: 1.5rem;
-  width: 15rem;
+  width: 12rem;
 }
-.main p{
+.main p {
   text-wrap: pretty;
+}
+.main hr {
+  width: 80%;
 }
