@@ -7,21 +7,21 @@
   padding: 2rem;
   min-height: 100vh;
 }
-.main h1{
+.main h1 {
   text-align: center;
   text-wrap: balance;
   padding: 5rem;
 }
-.main div{
- display: flex;
- flex-direction: column;
- gap: 2rem;
+.main div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.main p{
+.main p {
   text-wrap: pretty;
 }
-.main form{
+.main form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -31,3 +31,28 @@
   font-size: 1.5rem;
 }
 
+.sectionLink {
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.link {
+  background: linear-gradient(to right, #4caf50, #96be38);
+  box-shadow: 0 4px 8px rgba(120, 120, 120, 0.9);
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 0.4rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  text-shadow: 2px 2px gray;
+}
+.link:hover {
+  background-color: #45a049;
+  color: white;
+  transform: translateY(-2px);
+}

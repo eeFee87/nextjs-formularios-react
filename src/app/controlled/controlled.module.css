@@ -36,3 +36,19 @@
 .main hr {
   width: 80%;
 }
+.link {
+  background: linear-gradient(to right, #4caf50, #96be38);
+  box-shadow: 0 4px 8px rgba(120, 120, 120, 0.9);
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 0.4rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  text-shadow: 2px 2px gray;
+}
+.link:hover {
+  background-color: #45a049;
+  color: white;
+  transform: translateY(-2px);
+}
